@@ -2,4 +2,4 @@
 
 set -e
 
-flake8 $(ls -d */)
+flake8 "$(ls -d -- */)"

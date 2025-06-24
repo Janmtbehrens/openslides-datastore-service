@@ -2,4 +2,4 @@
 
 set -e
 
-isort --check-only --diff $(ls -d */)
+isort --check-only --diff "$(ls -d -- */)"
